@@ -59,7 +59,7 @@ class video_converter():
         video_writer.release()
 
 # mp4vid = video_converter(r'c:\Users\shash\Desktop\10_Most_Amazing_Patrol_Boats_in_the_World.mp4')
-t1 = t(target=video_converter, args=(r'c:\Users\shash\Desktop\morehsit\hor_Det\10_Most_Amazing_Patrol_Boats_in_the_World.mp4',))
+t1 = t(target=video_converter, args=(r'c:\Location\to\h264\vidfile.h264',))
 t1.start()
 t1.join()
 full_time = round(time.time() - START,2)
